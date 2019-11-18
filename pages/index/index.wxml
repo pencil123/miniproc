@@ -1,5 +1,5 @@
 <!--index.wxml-->
-  <swiper class="" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
   <block wx:for="{{picList}}" wx:key="index">
     <swiper-item>
       <image src="{{item}}" class="slide-image" mode="aspectFill" bindtap='previewImg' data-previewurl='{{picList}}'
@@ -9,21 +9,19 @@
 </swiper>
 
 <view class='page_row' bindtap="suo">
-      <view class="search">
-        <view class="df search_arr">
-          <icon class="searchcion" size='20' type='search'></icon>
-          <input bindconfirm="https://cn-blogs.cn" placeholder="请输入关键字" value="{{searchValue}}"/>
-        </view>
-      </view>
-      <view class='sousuo'>搜索</view>
+  <view class="search">
+    <view class="df search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>
+      <input bindconfirm="search_api" placeholder="请输入关键字" value="{{searchValue}}"/>
+     </view>
+  </view>
+  <view class='sousuo'>搜索</view>
 </view>
 
-    
-<view class="container">
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <view class="currenttime">
-      <button bindtap="bindTimeTap" class="user-time">{{time}}</button>
+<view class="coupon">
+  <view class="section_gap" wx:for="{{array}}" wx:for-item="item">
+    <image class="image_url" mode="widthFix" src="{{item.src}}"></image>
+    <view class="section_title">{{item.text}}</view>
+    <view class="section_price">{{item.price}}</view>
   </view>
 </view>

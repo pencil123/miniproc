@@ -8,7 +8,40 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     time: (new Date()).toString(),
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    array: [{
+      text: '高领秋冬韩版紧身内搭t恤打底',
+      price: '10.50',
+      src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+    }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }, {
+        text: '高领秋冬韩版紧身内搭t恤打底',
+        price: '10.50',
+        src: 'https://img.alicdn.com/bao/uploaded/i1/3878483432/O1CN01gcgZHU1bDtqUBdIWp_!!0-item_pic.jpg'
+      }],
   },
   //事件处理函数
   bindViewTap: function() {

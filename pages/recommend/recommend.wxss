@@ -23,3 +23,85 @@
 .currenttime {
   margin-top: 5rpx;
 }
+
+.slide-image{
+  width: 100%;
+}
+
+.page_row{
+  margin-top: 10rpx;
+  display: flex;  
+  flex-direction: row  
+}  
+.search{
+   width: 80%;  
+}  
+.search_arr {
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}  
+.search_arr input{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}  
+.bc_text {
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}  
+      
+.sousuo {
+  margin-left: 15rpx;  
+  width: 15%;  
+  line-height: 150%;  
+  text-align: center;  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+}  
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}
+
+.coupon{
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_gap {
+  width: 45%;
+  background-color: #eeeeee;
+  margin: 5rpx;
+  /* 绝对定位的父级必须要定位 */
+  position: relative;
+}
+
+.image_url{
+  width: 100%;
+}
+
+.section_title{
+  font-size:3.5vw;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.section_price{
+  font-size:3.5vw;
+  font-weight: bold;
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+  color: red;
+  background:url(https://taobao71.com/assets/img/quanhoujia.png) center no-repeat;
+  background-size: auto 40rpx;
+}

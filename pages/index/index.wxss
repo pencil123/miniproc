@@ -70,3 +70,38 @@
   height: 20px;  
   text-align: center;  
 }
+
+.coupon{
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_gap {
+  width: 45%;
+  background-color: #eeeeee;
+  margin: 5rpx;
+  /* 绝对定位的父级必须要定位 */
+  position: relative;
+}
+
+.image_url{
+  width: 100%;
+}
+
+.section_title{
+  font-size:3.5vw;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.section_price{
+  font-size:3.5vw;
+  font-weight: bold;
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+  color: red;
+  background:url(https://taobao71.com/assets/img/quanhoujia.png) center no-repeat;
+  background-size: auto 40rpx;
+}
