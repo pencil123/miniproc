@@ -19,9 +19,9 @@
 </view>
 
 <view class="coupon">
-  <view class="section_gap" wx:for="{{array}}" wx:for-item="item">
-    <image class="image_url" mode="widthFix" src="{{item.src}}"></image>
-    <view class="section_title">{{item.text}}</view>
-    <view class="section_price">{{item.price}}</view>
+  <view class="section_gap" wx:for="{{list}}">
+    <image class="image_url" mode="widthFix" src="{{item.pict_url}}"></image>
+    <view class="section_title">{{item.short_title}}</view>
+    <view class="section_price">{{item.zk_final_price}}</view>
   </view>
 </view>

@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+<view class="data">展示数据</view>
+<view wx:for="{{list}}">
+  {{item.my_category_id}}
+  {{item.white_image}}
+  {{item.title}}
+</view>

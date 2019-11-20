@@ -4,6 +4,7 @@
     "pages/category/category",
     "pages/recommend/recommend",
     "pages/user/user",
+    "pages/test/test",
     "pages/logs/logs"
   ],
   "window": {
@@ -31,7 +32,7 @@
       "iconPath": "images/tui_green.png",
       "selectedIconPath": "images/tui_red.png"
     },    {
-      "pagePath":"pages/user/user",
+      "pagePath":"pages/test/test",
       "text":"我",
       "iconPath": "images/user_green.png",
       "selectedIconPath": "images/user_red.png"
